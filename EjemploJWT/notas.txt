@@ -1,0 +1,28 @@
+https://blog.softtek.com/es/autenticando-apis-con-spring-y-jwt
+
+Autenticación de APIs basada en tokens con Spring y JWT
+#########################################################
+
+En este ejemplo explicara cómo autenticar una API mediante tokens, 
+para poder garantizar que los usuarios que consumen nuestros servicios tienen permisos 
+para hacerlo y son quien dicen ser. 
+
+Ejercicio contempla
+1.-Crear un API REST con Spring Boot.
+2.-Proteger recursos publicados en el API.
+3.-Implementar un controlador para autenticar usuarios y generar un token de acceso.
+4.-Implementar un filtro para autorizar peticiones a recursos protegidos de nuestro API.
+
+Conceptos
+
+->Servidor: Aplicación que contiene los recursos protegidos mediante API REST.
+->Cliente: Aplicación que hace las peticiones a servidor para interacturar 
+  con los recursos protegidos.
+->Autenticación: Proceso a través del cual un cliente garantiza su identidad. 
+  El ejemplo más sencillo sería el uso de usuario y contraseña.
+->Autorización: Proceso a través del cual se determina si un cliente tiene autoridad, 
+  o autorización, para acceder a ciertos recursos protegidos.
+  
+  ¿Que es JWT?
+JSON Based Token (JWT, https://jwt.io/) es un estándar de código abierto basado en JSON
+para crear tokens de acceso que nos permiten securizar las comunicaciones entre cliente y servidor
